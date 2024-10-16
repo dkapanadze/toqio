@@ -14,8 +14,8 @@ jobs:
       # Checkout the repository
       - uses: actions/checkout@v4
 
-      - name: Set up Docker
-        uses: docker/prune-docker-action@v3 # Optional cleanup step for older Docker builds
+      # Explicitly install Docker (if necessary)
+      - name: Install Docker
         run: |
           sudo apt-get update
           sudo apt-get install -y docker.io
