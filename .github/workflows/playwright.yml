@@ -14,7 +14,6 @@ jobs:
       # Checkout the repository
       - uses: actions/checkout@v4
 
-      # Explicitly set up Docker
       - name: Set up Docker
         uses: docker/prune-docker-action@v3 # Optional cleanup step for older Docker builds
         run: |
