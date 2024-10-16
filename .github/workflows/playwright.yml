@@ -22,15 +22,6 @@ jobs:
           sudo systemctl start docker
           sudo systemctl enable docker
 
-      # Set up Docker Buildx (build enhancements for Docker)
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
-
-      # Build the Docker image for Playwright
-      - name: Build Docker image
-        run: |
-          docker build -t playwright-tests .
-
       # Run the Playwright tests inside the Docker container
       - name: Run Playwright tests in Docker
         run: |
