@@ -18,19 +18,11 @@ jobs:
       - name: Install Docker
         run: |
           dpkg --get-selections | grep hold
-
-
           sudo apt-get remove containerd
-
-
           sudo apt-get clean
           sudo apt-get autoclean
-
-
           sudo apt-get update
           sudo apt-get upgrade
-
-
           sudo apt-get install containerd.io
 
       # Run the Playwright tests inside the Docker container
