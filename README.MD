@@ -12,7 +12,7 @@ Docker installed on your machine
 
 2. Navigate to the Project Directory
 
-   - cd <<project-directory>>
+   - cd --project-directory--
 
 3. build docker
 
@@ -27,7 +27,7 @@ Docker installed on your machine
 
 ## Alternatively you can run tests without docker
 
-- cd <<project-directory>>
+- cd --project-directory--
 - npm install
 - npm run test
 
