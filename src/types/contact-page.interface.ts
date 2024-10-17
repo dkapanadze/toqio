@@ -1,5 +1,3 @@
-import { Page } from "playwright";
-
 export interface IContactPage {
   getContactPageTitle(): Promise<string | null>;
   acceptAllCookies(): Promise<void>;

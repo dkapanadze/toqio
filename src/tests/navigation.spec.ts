@@ -1,6 +1,6 @@
 import test from "../fixtures/navigation.fixture";
-import { POManager } from "../pages";
-import { expect, devices } from "playwright/test";
+
+import { expect } from "playwright/test";
 
 test.describe("Navigation Tests", () => {
   test("Navigate to the Contact Us page", async ({
@@ -21,7 +21,7 @@ test.describe("Navigation Tests", () => {
     }
   });
 
-  test.only("Navigate to the Contact Us page on tablet", async ({
+  test("Navigate to the Contact Us page on tablet", async ({
     page,
     landingPage,
     menuItems,
@@ -33,13 +33,9 @@ test.describe("Navigation Tests", () => {
       let nav;
       if (!item.parent) {
         nav = await landingPage.getNavigationItems(item.text);
-      } else {
-        (await landingPage.getNavigationItems(item.parent)).click();
-        nav = await landingPage.getNavigationItems(item.text);
+        await nav.click();
+        expect(page.url()).toContain(item.url);
       }
-      await nav.click();
-      expect(page.url()).toContain(item.url);
-
       await landingPage.clickBurgerMenu();
     }
   });

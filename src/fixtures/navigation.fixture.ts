@@ -18,6 +18,13 @@ const test = base.extend<NavigationFixture>({
     await use(menuItems);
   },
   landingPage: async ({ page }, use) => {
+    await page.addLocatorHandler(
+      page.locator("#hs-eu-cookie-confirmation"),
+      async () => {
+        // await page.locator("button", { name: "No thanks" }).click();
+        await page.locator("#hs-eu-confirmation-button").click();
+      },
+    );
     const pomManager = new POManager(page);
     const landingPage = pomManager.getLandingPage();
     await landingPage.goTo();
