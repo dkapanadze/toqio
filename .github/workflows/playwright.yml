@@ -19,6 +19,28 @@ jobs:
         with:
           node-version: "16" # Specify your Node.js version
 
+      # Install necessary system dependencies for Playwright
+      - name: Install System Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwoff2-dev \
+            libvpx-dev \
+            libevent-dev \
+            libopus-dev \
+            gstreamer1.0-plugins-base \
+            gstreamer1.0-plugins-good \
+            gstreamer1.0-plugins-bad \
+            gstreamer1.0-plugins-ugly \
+            gstreamer1.0-ffmpeg \
+            libharfbuzz-dev \
+            libhyphen-dev \
+            libglib2.0-dev \
+            libflite1 \
+            libflite-dev \
+            libgles2-mesa-dev \
+            libx264-dev
+
       # Install dependencies
       - name: Install Dependencies
         run: |
