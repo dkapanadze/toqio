@@ -6,29 +6,30 @@ Prerequisites
 Docker installed on your machine
 
 1. Clone the Repository
-   Open your terminal and run the following command to clone the repository:
-   git clone <repository-url>
+
+   - Open your terminal and run the following command to clone the repository:
+   - git clone `https://github.com/your-username/your-repository.git`
 
 2. Navigate to the Project Directory
-   Change to the project directory:
-   cd <project-directory>
+
+   - cd <<project-directory>>
 
 3. build docker
 
-docker build -t playwright-tests .
+- docker build -t playwright-tests .
 
 4. run tests
 
-docker run --rm -it playwright-tests
+- docker run --rm -it playwright-tests
 
 5. View Test Results
-   Once the tests have completed, you will see the output in the terminal. Review the results to ensure all tests pass.
+   - Once the tests have completed, you will see the output in the terminal. Review the results to ensure all tests pass.
 
 ## Alternatively you can run tests without docker
 
-cd <project-directory>
-npm install
-npm run test
+- cd <<project-directory>>
+- npm install
+- npm run test
 
 ## Project structure
 
