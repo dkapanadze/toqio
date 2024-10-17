@@ -1,0 +1,1 @@
+Loading time for the landing page: 6495 ms

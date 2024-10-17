@@ -3,7 +3,9 @@ import { ContactPageLocators } from "../types";
 export const contactPageLocators: Record<string, ContactPageLocators> = {
   en: {
     contactPageTitle: "h1",
+    requiredField: ".hs-form-required",
     acceptCookieBtn: { role: "button", name: /accept all/i },
+
     nameField: { role: "textbox", name: /first name/i },
     lastNameField: { role: "textbox", name: /last name/i },
     emailField: { role: "textbox", name: /e-mail/i },
@@ -21,6 +23,7 @@ export const contactPageLocators: Record<string, ContactPageLocators> = {
   },
   es: {
     contactPageTitle: "h1",
+    requiredField: ".hs-form-required",
     acceptCookieBtn: { role: "button", name: /aceptar todo/i },
     nameField: { role: "textbox", name: /nombre/i },
     lastNameField: { role: "textbox", name: /apellido\(s\)/i },

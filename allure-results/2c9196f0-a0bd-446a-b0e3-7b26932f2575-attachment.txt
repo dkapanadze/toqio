@@ -1,0 +1,1456 @@
+Error checking image at https://toqio.co/hubfs/raw_assets/public/Toqio_May2024/images/logo-blue.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@16',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176832583,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-visa.png?width=100&height=38&name=Logo-black-visa.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@20',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176832715,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-currencycloud.png?width=100&height=38&name=Logo-black-currencycloud.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@24',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176832800,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-kpmg.png?width=100&height=38&name=Logo-black-kpmg.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@28',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176832874,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-modulr.png?width=100&height=38&name=Logo-black-modulr.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@32',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176832958,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-clearbank.png?width=100&height=38&name=Logo-black-clearbank.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@36',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833104,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Home-page-enfuce.png?width=100&height=38&name=Home-page-enfuce.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@40',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833183,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Logo-black-railsr.png?width=100&height=38&name=Logo-black-railsr.png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@44',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833283,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/lock-unlock-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@48',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833364,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/star-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@52',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833439,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/checkbox-multiple-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@56',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833519,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/pie-chart-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@60',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833608,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-abell-money.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@64',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833684,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/image%20(21).png?width=200&height=50&name=image%20(21).png: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@68',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833753,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-mahou-1.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@72',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833836,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-movepay.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@76',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176833906,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-paysme.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@80',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834005,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-sphere-partners.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@84',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834098,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/logo-trustpayments.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@88',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834221,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/sound-module-fill.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@92',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834311,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/cloud-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@96',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834380,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_2024/Images/git-fork-line.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@100',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834464,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/home-explore.jpg?width=750&height=500&name=home-explore.jpg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@104',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834582,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/home-configure.jpg?width=750&height=500&name=home-configure.jpg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@108',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834683,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/Colourful%20paint%20palette%20selection%20on%20a%20black%20slate%20surface%20with%20brushes.jpeg?width=1000&height=667&name=Colourful%20paint%20palette%20selection%20on%20a%20black%20slate%20surface%20with%20brushes.jpeg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@112',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834801,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hs-fs/hubfs/home-launch.jpg?width=750&height=500&name=home-launch.jpg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@116',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834879,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio_May2024/images/cta_banner_image.jpg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@120',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176834967,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}
+Error checking image at https://toqio.co/hubfs/Toqio-Logo-white.svg: ExpectError: expect(received).toBe(expected) // Object.is equality
+
+Expected: 500
+Received: 200
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\src\tests\photos.spec.ts:29:41)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:338:9)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\workerMain.js:330:7)
+    at c:\Users\pc\Desktop\New folder (c:\Users\pc\Desktop\New folder (2)\testing\toqio\2)\testing\toqio\node_modules\playwright\lib\worker\testInfo.js:285:11) {
+  matcherResult: {
+    actual: 200,
+    expected: 500,
+    message: '\x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+      '\n' +
+      'Expected: \x1B[32m500\x1B[39m\n' +
+      'Received: \x1B[31m200\x1B[39m',
+    name: 'toBe',
+    pass: false
+  },
+  [Symbol(step)]: {
+    stepId: 'expect@124',
+    category: 'expect',
+    title: 'expect.toBe',
+    params: { expected: 500 },
+    infectParentStepsWithError: undefined,
+    boxedStack: undefined,
+    location: {
+      file: 'c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts',
+      line: 29,
+      column: 41,
+      function: 'c:\\Users\\pc\\Desktop\\New folder'
+    },
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1729176835054,
+    error: {
+      message: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m',
+      stack: 'Error: \x1B[2mexpect(\x1B[22m\x1B[31mreceived\x1B[39m\x1B[2m).\x1B[22mtoBe\x1B[2m(\x1B[22m\x1B[32mexpected\x1B[39m\x1B[2m) // Object.is equality\x1B[22m\n' +
+        '\n' +
+        'Expected: \x1B[32m500\x1B[39m\n' +
+        'Received: \x1B[31m200\x1B[39m\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\src\\tests\\photos.spec.ts:29:41)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:338:9)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\workerMain.js:330:7)\n' +
+        '    at c:\\Users\\pc\\Desktop\\New folder (c:\\Users\\pc\\Desktop\\New folder (2)\\testing\\toqio\\2)\\testing\\toqio\\node_modules\\playwright\\lib\\worker\\testInfo.js:285:11)'
+    }
+  }
+}

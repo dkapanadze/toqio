@@ -3,6 +3,7 @@ const errorMessages = {
     requiredField: "Please complete this required field.",
     wrongMobileNumber:
       "A valid phone number may only contain numbers, +()-. or x",
+    incorrectEmail: "Email must be formatted correctly.",
   },
   es: {
     requiredField: "Por favor complete este campo obligatorio.",

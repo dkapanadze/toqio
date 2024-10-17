@@ -1,0 +1,9 @@
+[
+  'Please complete this required field.',
+  'Please complete this required field.',
+  'Email must be formatted correctly.',
+  'A valid phone number may only contain numbers, +()-. or x',
+  'Please complete this required field.',
+  'Please complete this required field.',
+  'Please complete this required field.'
+] errorMessagesList

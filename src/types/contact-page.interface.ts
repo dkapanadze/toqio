@@ -13,4 +13,5 @@ export interface IContactPage {
   enterPhoneNumber(phoneNumber: string): Promise<void>;
   selectCountry(country: string): Promise<void>;
   clickRequiredCheckBox(): Promise<void>;
+  getRequiredInputs();
 }

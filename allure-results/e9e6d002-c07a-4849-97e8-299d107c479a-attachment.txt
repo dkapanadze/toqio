@@ -1,0 +1,33 @@
+{
+  validData: [
+    {
+      email: 'sacelimeili@dg.com',
+      name: 'John Doe',
+      country: 'Spain',
+      firstName: 'John',
+      mobileNumber: '1234567890',
+      companyName: 'Acme Corp',
+      lastName: 'Doe'
+    }
+  ],
+  invalidData: [
+    {
+      email: 'invalid-email',
+      name: '',
+      country: 'Unknown Country',
+      firstName: '',
+      mobileNumber: '12345',
+      companyName: 'Comp@nyName',
+      lastName: 'Doe123'
+    },
+    {
+      email: 'no-at-sign.com',
+      name: 'A',
+      country: 'Spain',
+      firstName: 'J',
+      mobileNumber: 'abcdefghij',
+      companyName: '',
+      lastName: ''
+    }
+  ]
+} testDataForContact

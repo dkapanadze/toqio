@@ -1,9 +1,20 @@
 {
-  "email": "sacelimeili@dg.com",
-  "name": "firstname",
-  "country": "Spain",
-  "firstName": "firstname",
-  "mobileNumber": "1234567890",
-  "companyName": "company name",
-  "lastName": "lastname"
+  "validData": {
+    "email": "sacelimeili@dg.com",
+    "name": "John Doe",
+    "country": "Spain",
+    "firstName": "John",
+    "mobileNumber": "1234567890",
+    "companyName": "Acme Corp",
+    "lastName": "Doe"
+  },
+  "invalidData": {
+    "email": "invalid-email",
+    "name": "",
+    "country": "Unknown Country",
+    "firstName": "",
+    "mobileNumber": "invalid number",
+    "companyName": "Comp@nyName",
+    "lastName": "Doe123"
+  }
 }

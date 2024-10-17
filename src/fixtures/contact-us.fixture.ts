@@ -8,16 +8,21 @@ type TestFixtures = {
   page: Page;
   contactPage: IContactPage;
   testDataForContact: {
-    email: string;
-    name: string;
-    country: string;
-    mobileNumber: string;
-    firstName: string;
-    companyName: string;
-    lastName: string;
+    validData: contactData;
+    invalidData: contactData;
   };
   language: string;
 };
+
+interface contactData {
+  email: string;
+  name: string;
+  country: string;
+  mobileNumber: string;
+  firstName: string;
+  companyName: string;
+  lastName: string;
+}
 
 export const test = base.extend<TestFixtures>({
   page: async ({}, use) => {

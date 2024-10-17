@@ -1,0 +1,2 @@
+getByRole('textbox') this.locators.inputs
+getByRole('textbox') this.locators.inputs.allTextContents()

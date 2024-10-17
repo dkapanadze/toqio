@@ -56,6 +56,7 @@ export interface ContactPageLocators {
   dropDownCountry: LocatorConfig;
   dropdownAboutUs: LocatorConfig;
   checkBox: LocatorConfig;
+  requiredField: string;
 }
 
 export interface LandingPageLocators {

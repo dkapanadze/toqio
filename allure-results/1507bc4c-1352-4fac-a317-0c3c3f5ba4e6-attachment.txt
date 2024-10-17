@@ -1,0 +1,4 @@
+[
+  'Email must be formatted correctly.',
+  'A valid phone number may only contain numbers, +()-. or x'
+] errorMessagesList

@@ -21,7 +21,6 @@ const test = base.extend<NavigationFixture>({
     await page.addLocatorHandler(
       page.locator("#hs-eu-cookie-confirmation"),
       async () => {
-        // await page.locator("button", { name: "No thanks" }).click();
         await page.locator("#hs-eu-confirmation-button").click();
       },
     );

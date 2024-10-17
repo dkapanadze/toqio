@@ -17,6 +17,7 @@ export class ContactPage implements IContactPage {
     dropDownCountry: Locator;
     checkBox: Locator;
     dropdownAboutUs: Locator;
+    requiredFields: any;
   };
 
   constructor(private readonly page: Page, private readonly language: string) {
@@ -34,6 +35,7 @@ export class ContactPage implements IContactPage {
       dropDownCountry,
       checkBox,
       dropdownAboutUs,
+      requiredField,
     } = contactPageLocators[this.language];
 
     this.locators = {
@@ -66,11 +68,16 @@ export class ContactPage implements IContactPage {
       dropdownAboutUs: this.page.getByRole(dropdownAboutUs.role, {
         name: dropdownAboutUs.name,
       }),
+      requiredFields: this.page.locator(requiredField),
     };
   }
 
   public async getContactPageTitle(): Promise<string | null> {
     return await this.locators.contactPageTitle.textContent();
+  }
+
+  public async getRequiredInputs(): Promise<number> {
+    return await this.locators.requiredFields.count();
   }
 
   public async fillField(field: Locator, value: string): Promise<void> {

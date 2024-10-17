@@ -5,30 +5,51 @@ import errorMessages from "../data/errorMessages";
 import { test } from "../fixtures/contact-us.fixture";
 
 test.describe("Contact Page Form Validation Tests", () => {
-  test("validate empty form submission errors", async ({ contactPage }) => {
+  test("should display validation errors for empty form submission", async ({
+    contactPage,
+  }) => {
     await contactPage.clickSubmitBtn();
+    const requiredFieldCount = await contactPage.getRequiredInputs();
+
     await validateErrorMessages(
-      6,
+      requiredFieldCount,
       errorMessages["en"].requiredField,
       contactPage,
     );
   });
 
-  test.only("validate incorrect mobile number", async ({ contactPage }) => {
-    await contactPage.enterPhoneNumber("cc");
+  test.only("should display invalid  email and phone number format", async ({
+    contactPage,
+    testDataForContact,
+  }) => {
+    const { invalidData, validData } = testDataForContact;
+
+    await contactPage.enterName(validData.firstName);
+    await contactPage.enterCompanyName(validData.companyName);
+    await contactPage.enterLastName(validData.lastName);
+    await contactPage.clickRequiredCheckBox();
+    await contactPage.enterPhoneNumber(invalidData.mobileNumber);
+    await contactPage.selectCountry(validData.country);
+    await contactPage.enterEmail(invalidData.email);
     await contactPage.clickSubmitBtn();
     const errorMessagesList = await contactPage.getErrorMessages();
     expect(errorMessagesList).toContain(errorMessages["en"].wrongMobileNumber);
+    expect(errorMessagesList).toContain(errorMessages["en"].incorrectEmail);
   });
 
-  test("correct credentials", async ({ contactPage, testDataForContact }) => {
-    await contactPage.enterName(testDataForContact.firstName);
-    await contactPage.enterCompanyName(testDataForContact.companyName);
-    await contactPage.enterLastName(testDataForContact.lastName);
-    await contactPage.enterEmail(testDataForContact.email);
-    await contactPage.enterCountry(testDataForContact.country);
-    await contactPage.enterPhoneNumber(testDataForContact.mobileNumber);
-    await contactPage.selectCountry(testDataForContact.country);
+  test("should submit the form with valid credentials", async ({
+    contactPage,
+    testDataForContact,
+  }) => {
+    const validData = testDataForContact.validData;
+
+    await contactPage.enterName(validData.firstName);
+    await contactPage.enterCompanyName(validData.companyName);
+    await contactPage.enterLastName(validData.lastName);
+    await contactPage.enterEmail(validData.email);
+    await contactPage.enterCountry(validData.country);
+    await contactPage.enterPhoneNumber(validData.mobileNumber);
+    await contactPage.selectCountry(validData.country);
     await contactPage.clickRequiredCheckBox();
     await contactPage.clickSubmitBtn();
   });
