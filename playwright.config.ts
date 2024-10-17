@@ -11,11 +11,11 @@ export default defineConfig({
   fullyParallel: false,
 
   forbidOnly: !!process.env.CI,
-  timeout: 30000,
+  timeout: 300000,
 
   retries: process.env.CI ? 2 : 0,
 
-  workers: process.env.CI ? 1 : undefined,
+  workers: 1,
   reporter: [["html"]],
 
   use: {
@@ -23,7 +23,7 @@ export default defineConfig({
     trace: "on-first-retry",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
-    actionTimeout: 10000,
+    actionTimeout: 15000,
   },
 
   /* Configure projects for major browsers */

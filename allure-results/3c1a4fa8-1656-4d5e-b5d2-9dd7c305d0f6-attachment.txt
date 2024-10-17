@@ -1,4 +1,0 @@
-28 imageCount
-locator('img').first() imageElement 0
-https://toqio.co/hubfs/raw_assets/public/Toqio_May2024/images/logo-blue.svg imageSrc 0
-200 response 0

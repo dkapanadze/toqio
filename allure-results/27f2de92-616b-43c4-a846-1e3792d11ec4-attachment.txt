@@ -1,9 +1,0 @@
-[
-  getByRole('textbox').first(),
-  getByRole('textbox').nth(1),
-  getByRole('textbox').nth(2),
-  getByRole('textbox').nth(3),
-  getByRole('textbox').nth(4),
-  getByRole('textbox').nth(5)
-] this.locators.inputs
-getByRole('textbox') this.locators.inputs.allTextContents()
