@@ -1,0 +1,43 @@
+Link Status Report:
+https://toqio.co/toqio-2024-q3-ebook-unlocking-growth-in-distribution-the-invisible-hand-of-embedded-finance: 200
+https://toqio.co: 200
+https://toqio.co/platform: 200
+https://toqio.co/use-cases: 200
+https://toqio.co/about-us/: 200
+https://toqio.co/partners: 200
+https://toqio.co/newsroom: 200
+https://toqio.co/team: 200
+https://toqio.co/talent: 200
+https://toqio.co/contact: 200
+https://toqio.co/insights: 200
+https://toqio.co/podcast: 200
+https://toqio.co/reports-guides: 200
+https://toqio.co/toqio-2024-q3-ebook-unlocking-growth-in-distribution-the-invisible-hand-of-embedded-finance: 200
+https://toqio.co: 200
+https://toqio.co/es/: 200
+https://toqio.co/contact-sales/: 200
+https://toqio.co/contact-sales/: 200
+https://toqio.co/contact-sales/: 200
+https://toqio.co/contact-sales/: 200
+https://toqio.co/insights/get-to-know-toqio-with-elena-costa: 200
+https://toqio.co/insights/author/toqio: 200
+https://toqio.co/insights/get-to-know-toqio-with-elena-costa: 200
+https://toqio.co/insights/get-to-know-toqio-with-elena-costa: 200
+https://toqio.co/insights/embedded-finance-gains-driving-20-roi-for-european-corporates: 200
+https://toqio.co/insights/author/toqio: 200
+https://toqio.co/insights/embedded-finance-gains-driving-20-roi-for-european-corporates: 200
+https://toqio.co/insights/embedded-finance-gains-driving-20-roi-for-european-corporates: 200
+https://toqio.co/insights/third-sector-insights-optimizing-cash-disbursements-for-merchants: 200
+https://toqio.co/insights/author/toqio: 200
+https://toqio.co/insights/third-sector-insights-optimizing-cash-disbursements-for-merchants: 200
+https://toqio.co/insights/third-sector-insights-optimizing-cash-disbursements-for-merchants: 200
+https://toqio.co/newsroom/corporate-embedded-finance-an-opportunity-worth-7-point-2-trillion: 200
+https://toqio.co/newsroom/author/toqio: 200
+https://toqio.co/newsroom/corporate-embedded-finance-an-opportunity-worth-7-point-2-trillion: 200
+https://toqio.co/newsroom/corporate-embedded-finance-an-opportunity-worth-7-point-2-trillion: 200
+https://toqio.co/newsroom/seize-the-embedded-finance-first-mover-advantage-while-it-lasts: 200
+https://toqio.co/newsroom/author/toqio: 200
+https://toqio.co/newsroom/seize-the-embedded-finance-first-mover-advantage-while-it-lasts: Error: page.goto: Test timeout of 30000ms exceeded.
+Call log:
+  - navigating to "https://toqio.co/newsroom/seize-the-embedded-finance-first-mover-advantage-while-it-lasts", waiting until "domcontentloaded"
+

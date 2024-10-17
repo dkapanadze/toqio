@@ -1,0 +1,2 @@
+Link Status Report:
+All links are working properly (status < 400).

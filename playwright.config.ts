@@ -8,7 +8,7 @@ dotenv.config({ path: path.resolve(__dirname, ".env") });
 export default defineConfig({
   testDir: "src/tests",
 
-  fullyParallel: true,
+  fullyParallel: false,
 
   forbidOnly: !!process.env.CI,
   timeout: 30000,
@@ -16,10 +16,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
 
   workers: process.env.CI ? 1 : undefined,
-  reporter: [
-    ["html", { outputFolder: "test-results", open: "never" }],
-    ["allure-playwright"],
-  ],
+  reporter: [["html"]],
 
   use: {
     baseURL: process.env.BASE_URL || "https://toqio.co/",
@@ -33,11 +30,7 @@ export default defineConfig({
   projects: [
     {
       name: "chromium",
-      use: { ...devices["Desktop Chrome"], headless: true }, // Run headless in CI
-    },
-    {
-      name: "firefox",
-      use: { ...devices["Desktop Firefox"], headless: true },
+      use: { ...devices["Desktop Chrome"], headless: true },
     },
     {
       name: "webkit",
