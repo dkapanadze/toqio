@@ -21,7 +21,7 @@ test.describe("Navigation Tests", () => {
     }
   });
 
-  test.only("TC-005: Verify Burger Menu Functionality on Tablet View", async ({
+  test("TC-005: Verify Burger Menu Functionality on Tablet View", async ({
     page,
     landingPage,
     menuItems,
