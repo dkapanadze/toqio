@@ -17,28 +17,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "16" # Specify your Node.js version
+          node-version: "20" # Specify your Node.js version
 
       # Install necessary system dependencies for Playwright
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            libwoff2-1 \
-            libvpx6 \
-            libevent-2.1-7 \
-            libopus0 \
-            gstreamer1.0-plugins-base \
-            gstreamer1.0-plugins-good \
-            gstreamer1.0-plugins-bad \
-            gstreamer1.0-plugins-ugly \
-            gstreamer1.0-gtk3 \
-            libharfbuzz0b \
-            libhyphen0 \
-            libglib2.0-0 \
-            libflite1 \
-            libgles2-mesa \
-            libx264-160
+          sudo apt-get install -y
 
       # Install dependencies
       - name: Install Dependencies
