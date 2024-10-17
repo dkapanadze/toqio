@@ -61,4 +61,6 @@ export interface ContactPageLocators {
 export interface LandingPageLocators {
   contactUsButton: LocatorConfig;
   language: string;
+  navigation: LocatorConfig;
+  burgerMenu: string;
 }

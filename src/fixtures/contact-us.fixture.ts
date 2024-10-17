@@ -39,7 +39,6 @@ export const test = base.extend<TestFixtures>({
   contactPage: async ({ page, language }, use) => {
     const pomManager = new POManager(page);
     const landingPage = pomManager.getLandingPage();
-    // const language = await landingPage.getLanguage();
 
     const newPage = await landingPage.clickContactBtnAndSwitchToNewTab();
     const contactPage = pomManager.getContactPage(newPage, language);

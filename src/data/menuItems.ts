@@ -1,0 +1,26 @@
+export const menuItems = [
+  { text: "Home", url: "/", clickAble: true },
+  { text: "Platform", url: "/platform", clickAble: true },
+  { text: "Use Case", url: "/use-case", clickAble: true },
+  { text: "Company", url: "", clickAble: false },
+  { text: "About Us", url: "/about-us", clickAble: true, parent: "Company" },
+  { text: "Partners", url: "/partners", clickAble: true, parent: "Company" },
+  { text: "Team", url: "/team", clickAble: true, parent: "Company" },
+  { text: "Talent", url: "/talent", clickAble: true, parent: "Company" },
+  { text: "Contact", url: "/contact", clickAble: true, parent: "Company" },
+  { text: "Resources", url: "", clickAble: false },
+  { text: "Insights", url: "/insights", clickAble: true, parent: "Resources" },
+  { text: "Podcast", url: "/podcast", clickAble: true, parent: "Resources" },
+  {
+    text: "Reports/Guides",
+    url: "/reports-guides",
+    clickAble: true,
+    parent: "Resources",
+  },
+  {
+    text: "Free ebook!",
+    url: "/toqio-2024-q3-ebook-unlocking-growth-in-distribution-the-invisible-hand-of-embedded-finance",
+    clickAble: true,
+    parent: "Resources",
+  },
+];

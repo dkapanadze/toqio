@@ -14,6 +14,7 @@ export class POManager {
     this.contactPage = new ContactPage(newTab, language);
     return this.contactPage;
   }
+
   public getLandingPage() {
     return this.landingPage;
   }

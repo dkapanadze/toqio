@@ -6,6 +6,8 @@ export class LandingPage implements ILandingPage {
   private readonly locators: {
     contactUsButton: Locator;
     language: Locator;
+    navigation: Locator;
+    burgerMenu: Locator;
   };
 
   constructor(private readonly page: Page) {
@@ -16,6 +18,8 @@ export class LandingPage implements ILandingPage {
         name: contactUsButton.name,
       }),
       language: this.page.locator(language),
+      navigation: this.page.getByRole(landingPageLocators.navigation.role),
+      burgerMenu: this.page.locator(landingPageLocators.burgerMenu),
     };
   }
 
@@ -28,6 +32,21 @@ export class LandingPage implements ILandingPage {
     return newPage;
   }
 
+  public async goTo(): Promise<void> {
+    await this.page.goto("/");
+  }
+
+  public async getNavigationItems(menuItem: string): Promise<Locator> {
+    return await this.page
+      .getByRole("menuitem", {
+        name: menuItem,
+      })
+      .nth(0);
+  }
+
+  public async clickBurgerMenu(): Promise<void> {
+    await this.locators.burgerMenu.click();
+  }
   public async getLanguage(): Promise<string> {
     const language = (await this.locators.language.textContent())!;
 
