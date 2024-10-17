@@ -24,6 +24,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y
+          sudo npx playwright install-deps
 
       # Install dependencies
       - name: Install Dependencies
