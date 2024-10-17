@@ -8,7 +8,7 @@ Docker installed on your machine
 1. Clone the Repository
 
    - Open your terminal and run the following command to clone the repository:
-   - git clone `https://github.com/your-username/your-repository.git`
+   - git clone `https://github.com/dkapanadze/toqio`
 
 2. Navigate to the Project Directory
 
